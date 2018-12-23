@@ -45,7 +45,7 @@ public class Quiz extends AppCompatActivity {
         shuffleFacts();
         for (t = 1 ; t<= 5 ;t++)
         {
-            for (int h = 1 ; h<=t ;h++)
+            for (int h = 1 ; h>=t ; h++)
             {
                 mImageView.setImageResource(FactRND[0].getmImage());
                 Intent i = new Intent(Quiz.this, QZ.class);
